@@ -57,6 +57,20 @@ body, html {
   color: #ddd;
 }
 
+.section-footer {
+  background-color: #282e34;
+  color: #ddd;
+}
+
+.section-footer a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.section-footer a:hover{
+  color: #a1a5c9;
+}
+
 .ptext {
   position: absolute;
   top: 50%;
@@ -76,6 +90,19 @@ body, html {
 
 .ptext .border.transparent {
   background-color: transparent;
+}
+
+.footer {
+  background-color: #282e34;
+  width: 100%;
+  color: #fff;
+  min-height: 200px;
+
+}
+
+.footer h4 {
+  text-align: center;
+  margin-top: 10px;
 }
 
 @media(max-width:568px){
